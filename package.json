@@ -13,11 +13,11 @@
     "react-scripts-ts": "2.8.0"
   },
   "lint-staged": {
-      "src/**/*.{js,jsx,json,css}": [
-        "prettier --single-quote --write",
-        "git add"
-      ]
-    },
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
   "scripts": {
     "precommit": "lint-staged",
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
