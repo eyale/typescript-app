@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: black;
+  height: 50px;
+  padding: 20px;
+  color: #292929;
+}
+.header ul {
+  margin: 0;
+  padding: 0;
+}
+.header ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 0 10px;
+}
+
+.logo {
+  animation: logo-spin infinite 1s linear;
+  height: 40px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
