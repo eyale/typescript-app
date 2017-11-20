@@ -4,7 +4,7 @@ import RouterComponent from '../RouterComponent/RouterComponent'
 import Header from '../Parts/Header/Header'
 
 export default class App extends React.Component<{}, {}> {
-  links: [string] = ['/', 'contacts']
+  links: [string] = ['/', 'contacts', 'player']
 
   public render() {
     return (

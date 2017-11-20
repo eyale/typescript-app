@@ -21,10 +21,7 @@ export default class Home extends React.Component<{}, {}> {
   public render() {
     return (
       <div className="home">
-        <h2>Welcome to React</h2>
-        <p className="app-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <h1>Welcome!</h1>
         {this.renderPopup()}
         <button onClick={this.togglePopup}>Click to view Popup</button>
       </div>
