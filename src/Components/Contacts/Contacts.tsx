@@ -5,7 +5,7 @@ export default class Contacts extends React.Component<{}, {}> {
   public render() {
     return (
       <div className="contacts">
-        Contacts
+        <h1>Contacts</h1>
       </div>
     );
   }
